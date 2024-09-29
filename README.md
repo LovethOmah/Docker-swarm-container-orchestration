@@ -1,7 +1,7 @@
 STEPS I USED FOR CONTAINER ORCHESTRATION USING DOCKER SWARM
 
 
-            PROJECT OVERVIEW:
+               PROJECT OVERVIEW:
 * Container ochestration using docker swarm
 * Manager and worker node creation
 * Service creation and image deployment
@@ -11,13 +11,15 @@ STEPS I USED FOR CONTAINER ORCHESTRATION USING DOCKER SWARM
 
 
 
-            PROJECT PREREQUISITES
+                PROJECT PREREQUISITES
 * Have two EC2s installed
 * Make sure to have a keypair
 * Make sure your security group have ports 80, 22 and 2377 opened
 
 
 
+
+                 STEPS I USED
 * I created 2 EC2 Instsnces (This is because i didn't want to use my local machine)
 
 * Name one a manager node and the other a worker node
